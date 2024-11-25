@@ -1,0 +1,9 @@
+.forcast-display {
+    text-align: center; /* Center the text within the component */
+    padding: 20px; /* Optional: Add some padding */
+    border-radius: 8px; /* Optional: Round the corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    font-weight: bold;
+    color: black;
+  }
+  

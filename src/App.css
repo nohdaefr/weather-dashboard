@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./assets/images.jpeg'); /* Adjust path */
+  background-size: cover; /* Ensures the image covers the full screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  min-height: 100vh; /* Ensures the page height is 100% */
+}
+
+.app-container {
+  text-align: center;
+  background-image: url('./assets/images.jpeg'); /* Adjust path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.login-container input {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
